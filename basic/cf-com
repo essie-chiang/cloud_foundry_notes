@@ -1,0 +1,65 @@
+Showing basic command set. Run with 'help --all' to list all commands.
+
+Getting Started
+  info         	Display information on the current target, user, etc.
+  target [URL] 	Set or display the target cloud, organization, and space
+  logout       	Log out from the target
+  login [EMAIL]	Authenticate with the target
+
+Applications
+  app [APP]	Show app information
+  apps     	List your applications
+
+  Management
+    restart APPS...	Stop and start an application
+    delete APPS... 	Delete an application, like "delete hellp"
+    push [NAME]    	Push an application, syncing changes if it exists
+    start APPS...  	Start an application
+    stop APPS...   	Stop an application
+    console APP    	Open a console connected to your app
+
+Services
+  services       	List your services
+  service SERVICE	Show service information
+
+  Management
+    unbind-service [SERVICE] [APP]  	Unbind a service from an application
+    create-service [OFFERING] [NAME]	Create a service
+    bind-service [SERVICE] [APP]    	Bind a service to an application
+    delete-service [SERVICE]        	Delete a service
+    tunnel [INSTANCE] [CLIENT]      	Create a local tunnel to a service.
+
+Organizations
+  org [ORGANIZATION]       	Show organization information
+  orgs                     	List available organizations
+  create-org [NAME]        	Create an organization
+  delete-org [ORGANIZATION]	Delete an organization
+
+Spaces
+  spaces [ORGANIZATION]             	List spaces in an organization
+  space [SPACE]                     	Show space information
+  create-space [NAME] [ORGANIZATION]	Create a space in an organization
+  delete-space SPACE                	Delete a space and its contents
+
+Routes
+  delete-route ROUTE	Delete a route
+  routes            	List routes in a space
+
+Domains
+  domains [SPACE]    	List domains in a space
+  unmap-domain DOMAIN	Unmap a domain from an organization or space
+  map-domain NAME    	Map a domain to an organization or space
+
+Options:
+      --[no-]color                 Use colorful output
+      --[no-]script                Shortcut for --quiet and --force
+      --debug                      Print full stack trace (instead of crash log)
+      --http-proxy HTTP_PROXY      Connect though an http proxy server
+      --https-proxy HTTPS_PROXY    Connect though an https proxy server
+  -V, --verbose                    Print extra information
+  -f, --[no-]force                 Skip interaction when possible
+  -h, --help                       Show command usage
+  -m, --manifest FILE              Path to manifest file to use
+  -q, --[no-]quiet                 Simplify output format
+  -t, --trace                      Show API traffic
+  -v, --version                    Print version number

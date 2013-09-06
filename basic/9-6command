@@ -1,0 +1,500 @@
+  101  cd dea/
+  102  ls
+  103  vi env.rb 
+  104  vi env.rb 
+  105  ls
+  106  cd ..
+  107  ls
+  108  cd ..
+  109  ls
+  110  cd config/
+  111  ls
+  112  vi dea.yml 
+  113  cd ../..
+  114  vagrant ssh
+  115  ³Ì¶È¡
+  116  cd /opt/cf-vagrant-installer
+  117  vagrant ssh
+  118  curl http://search.maven.org/remotecontent?filepath=mysql/mysql-connector-java/5.1.12/mysql-connector-java-5.1.12.jar -o mysql-connector-java-5.1.12.jar
+  119  cd /opt/cf-vagrant-installer
+  120  vagrant ssh
+  121  ls
+  122  cd /opt/cf-vagrant-installer
+  123  vagrant ssh
+  124  Ècd 
+  125  cd /opt/cf-vagrant-installer
+  126  vagrant ssh
+  127  cd /opt/cf-vagrant-installer
+  128  ls
+  129  vagrant halt
+  130  ls
+  131  vagrant halt
+  132  vagrant up
+  133  vagrant ssh
+  134  vagrant ssh
+  135  vagrant ssh
+  136  vagrant halt
+  137  cd ..
+  138  ls
+  139  cd backup/
+  140  ls
+  141  mv cf-vagrant-installer/ cf-vagrant-installer1
+  142  ls
+  143  cf -rf ../cf-vagrant-installer ./
+  144  cp -rf ../cf-vagrant-installer ./
+  145  ls
+  146  rm -rf cf-vagrant-installer
+  147  cd ../
+  148  ls
+  149  zip -h
+  150  tax -h
+  151  tar -h
+  152  tar --help
+  153  tar -cvf cfbackup.tar cf-vagrant-installer
+  154  ls
+  155  rm -f cfbackup.tar 
+  156  tar -cvf cfbackup.tar cf-vagrant-installer
+  157  rm -f cfbackup.tar 
+  158  tar -cvf cfbackup.tar cf-vagrant-installer
+  159  tar -cvf vmbackup.tar /home/icap/VirtualBox\ VMs/cf-vagrant-installer_1376023772
+  160  cd cf-vagrant-installer
+  161  ls
+  162  vagrant up
+  163  ls
+  164  vagrant halt
+  165  vagrant halt
+  166  vagrant halt
+  167  vagrant up
+  168  ls
+  169  vagrant halt
+  170  vagrant halt
+  171  vagrant halt
+  172  vagrant up
+  173  vagrant halt
+  174  vagrant up
+  175  vagrant halt
+  176  vagrant up
+  177  vagrant halt
+  178  vagrant halt
+  179  vagrant up
+  180  vagrant halt
+  181  vagrant halt
+  182  vagrant halt
+  183  vagrant halt
+  184  vagrant halt
+  185  vagrant halt
+  186  vagrant halt
+  187  sudo reboot now
+  188  cd /opt/cf-vagrant-installer
+  189  ls
+  190  vagrant ssh
+  191  cd test-apps/
+  192  cd provider/
+  193  ls
+  194  cd logs/
+  195  ls
+  196  ls -l
+  197  rm -rf *
+  198  cd ../..
+  199  cd ..
+  200  ls
+  201  cd logs/
+  202  ls
+  203  ls -l
+  204  rm -rf *
+  205  cd ..
+  206  ls
+  207  cd test-apps/
+  208  ls
+  209  cd provider/
+  210  ls
+  211  ls -l
+  212  rm -f nohup.out 
+  213  cd ../..
+  214  ls
+  215  cd test-apps/consumer/
+  216  ls
+  217  cd logs/
+  218  ls
+  219  ls -l
+  220  rm -rf *
+  221  cd ../..
+  222  cd ..
+  223  ls
+  224  cd /tmp/
+  225  ls -l
+  226  cd /opt/cf-vagrant-installer
+  227  vagrant ssh
+  228  vagrant ssh
+  229  ls
+  230  vagrant ssh
+  231  vagrant ssh
+  232  cd /opt/cf-vagrant-installer
+  233  ls
+  234  vagrant up
+  235  vagrant up
+  236  vagrant halt
+  237  vagrant up
+  238  vagrant halt
+  239  vagrant halt
+  240  ps -ef | grep vagrant
+  241  sudo kill -9 2958
+  242  ps -ef | grep vagrant
+  243  vagrant halt
+  244  vagrant halt
+  245  vagrant up
+  246  vagrant halt
+  247  ps -ef | grep vagrant
+  248  sudo kill -9 3706
+  249  vagrant up
+  250  vagrant halt
+  251  ps -ef | grep vagrant
+  252  ps -ef | grep vagrant
+  253  ps -ef | grep vagrant
+  254  ps -ef | grep vagrant
+  255  vagrant up
+  256  vagrant up
+  257  vagrant up
+  258  ls
+  259  cd ..
+  260  ls
+  261  cd cf-vagrant-installer1
+  262  vagrant up
+  263  cd ..
+  264  ls
+  265  ls
+  266  ls
+  267  cd backup/
+  268  ls
+  269  ls
+  270  cd ..
+  271  ls
+  272  cd cf-vagrant-installer2/
+  273  ls
+  274  cd test-apps/
+  275  ls
+  276  cd eureka/
+  277  ls
+  278  cd ../../
+  279  ls
+  280  cd ../
+  281  ls
+  282  ls
+  283  rm -rf cf-vagrant-installer
+  284  cp -rf backup/cf-vagrant-installer/ ./
+  285  ls
+  286  cd /home/
+  287  cd icap/
+  288  ls
+  289  cd vmbackup/
+  290  ls
+  291  cp -rf cf-vagrant-installer_1372472444/ ../VirtualBox\ VMs/
+  292  cd /opt/cf-vagrant-installer
+  293  vi Vagrantfile 
+  294  vagrant up
+  295  vagrant up
+  296  vagrant up -t
+  297  cd ../cf-vagrant-installer1
+  298  vagrant halt
+  299  vagrant halt
+  300  cd ../cf-vagrant-installer
+  301  vagrant up
+  302  vagrant up cf-vagrant-installer_1372472444
+  303  export
+  304  export
+  305  export
+  306  export
+  307  export
+  308  export
+  309  export
+  310  export
+  311  export
+  312  export
+  313  export
+  314  export
+  315  export
+  316  export
+  317  export
+  318  export
+  319  export
+  320  export
+  321  export
+  322  export
+  323  export
+  324  export
+  325  export
+  326  export
+  327  export
+  328  export
+  329  export
+  330  export
+  331  export
+  332  export
+  333  export
+  334  export
+  335  export
+  336  export
+  337  export
+  338  vagrant up
+  339  vagrant up
+  340  vagrant up
+  341  cd ..
+  342  cd cf-vagrant-installer1
+  343  vagrant up
+  344  mv /home/icap/VirtualBox\ VMs/* /home/icap/
+  345  vagrant up
+  346  ls
+  347  cd custom_config_files/
+  348  ls
+  349  cd ..
+  350  ls
+  351  vi Procfile 
+  352  ls
+  353  vagrant box
+  354  vagrant box list
+  355  vagrant box package
+  356  vagrant box -h
+  357  vagrant -h
+  358  vagrant destory
+  359  vagrant box
+  360  ls
+  361  vi Rakefile 
+  362  ls
+  363  ls
+  364  cd ..
+  365  ls
+  366  cd /var
+  367  ls
+  368  ls
+  369  ls
+  370  ls
+  371  cd /opt/
+  372  ls
+  373  cp -rf backup/cf-vagrant-installer/ ./
+  374  ls
+  375  cd cf-vagrant-installer
+  376  ls
+  377  cd /opt/cf-vagrant-installer
+  378  cd /home/icap/
+  379  ls
+  380  cd VirtualBox\ VMs/
+  381  ls
+  382  cd ..
+  383  cp -rf vmbackup/cf-vagrant-installer_1372472444/ VirtualBox\ VMs/
+  384  ls
+  385  cd /opt/cf-vagrant-installer
+  386  ls
+  387  vagrant up
+  388  ls
+  389  ls
+  390  cd /home/
+  391  ls
+  392  cd icap/
+  393  ls
+  394  sudo find / -name .vagrant
+  395  cd /opt/cf-vagrant-installer
+  396  ls
+  397  vi .vagrant/
+  398  ls
+  399  vi /home/icap/.vagrant
+  400  rm -f ./vagrant
+  401  ls
+  402  rm -f .vagrant
+  403  cd ./vagrant
+  404  cd .vagrant
+  405  ls
+  406  cd machines/
+  407  ls
+  408  cd cf-install/
+  409  ls
+  410  cd virtualbox/
+  411  ls
+  412  vi id 
+  413  ls
+  414  cd /opt/cf-vagrant-installer
+  415  ls
+  416  rm -rf ./vagrant
+  417  vagrant up
+  418  mv /home/icap/.vagrant /home/
+  419  sudo mv /home/icap/.vagrant /home/
+  420  ls
+  421  vagrant up
+  422  ls
+  423  vi Berksfile
+  424  ls
+  425  vagrant up
+  426  export
+  427  vagrant box
+  428  vagrant box list
+  429  vagrant box add
+  430  vagrant -h
+  431  vagrant status
+  432  ls
+  433  cd chef/
+  434  ls
+  435  cd ..
+  436  ls
+  437  cd ..
+  438  ls
+  439  rm-rf cf-vagrant-installer
+  440  rm -rf cf-vagrant-installer
+  441  ls
+  442  git clone https://github.com/Altoros/cf-vagrant-installer.git
+  443  cd cf-vagrant-installer
+  444  ls
+  445  vagrant -v
+  446  ls
+  447  ls
+  448  cd /opt/cf-vagrant-installer
+  449  rake host:bootstrap
+  450  vagrant up
+  451  mv /home/.vagrant/ /home/icap/
+  452  sudo mv /home/.vagrant/ /home/icap/
+  453  vagrant up
+  454  ls
+  455  cd vagrant_box/
+  456  ls
+  457  vagrant up
+  458  vagrant ssh
+  459  vagrant ssh
+  460  whichis ruby
+  461  where is ruby
+  462  ruby --help
+  463  ruby -version
+  464  gem --help
+  465  cf --help
+  466  cf -v
+  467  cf --help | less
+  468  cf target http://api.192.168.10.10.xip.io
+  469  cf create-org ibm
+  470  ls
+  471  cf create-space testt
+  472  cf switch-space testt
+  473  cf services om
+  474  cf services -m
+  475  cf create-service mysql mydata
+  476  cf services -m
+  477  ls
+  478  cd /
+  479  ls
+  480  ll
+  481  ls -l
+  482  l
+  483  ll
+  484  cf ser
+  485  cf services -m
+  486  cf env
+  487  cf file
+  488  cf apps
+  489  cf apps -t
+  490  ls
+  491  cd home/icap/
+  492  ls
+  493  cd netflix/
+  494  ls
+  495  cd
+  496  ls
+  497  cd netflix/testweb/
+  498  ls
+  499  cf push
+  500  ls
+  501  cf -h
+  502  cf -h > cf.txt
+  503  ls
+  504  cd vagrant_box/
+  505  ls
+  506  ls -l
+  507  vi Vagrantfile 
+  508  cf -h
+  509  cf -h | grep space
+  510  cf -h | grep org
+  511  cf orgs
+  512  cf login
+  513  cf login
+  514  orgs
+  515  cf orgs
+  516  cf -n | grep user
+  517  cf -h | grep user
+  518  info
+  519  cf info
+  520  cf -h | less
+  521  cf app
+  522  space
+  523  cf space
+  524  cf switch-space test
+  525  cf app
+  526  cf apps
+  527  cf switch-space testt
+  528  cd 
+  529  ls
+  530  cf spcae
+  531  cf help
+  532  cf org
+  533  cf spaces
+  534  ls
+  535  rm *.txt
+  536  ls
+  537  mkdir cfsample
+  538  cd cfsample/
+  539  ls
+  540  cd cf-test/WebContent/
+  541  ls
+  542  cf push
+  543  vi /home/icap/.cf/crash 
+  544  cf push
+  545  cd
+  546  ls
+  547  cd cfsample/
+  548  ls
+  549  rm -rf cf-test/
+  550  ls
+  551  cd cf-test/WebContent/
+  552  ls
+  553  cf push
+  554  ls
+  555  cd 
+  556  cd cfsample/
+  557  ls
+  558  rm -rf cf-test/
+  559  ls
+  560  ls
+  561  cd cf-test/
+  562  ls
+  563  cd WebContent/
+  564  ls
+  565  vim web.xml
+  566  ls
+  567  cf push
+  568  ls
+  569  cp web.xml WEB-INF/web.xml
+  570  ls
+  571  rm web.xml 
+  572  cf push
+  573  cf domain
+  574  cf subdomain
+  575  cf domains
+  576  cf apps
+  577  ping 192.168.10.10.xip.io
+  578  hellp.192.168.10.10.xip.io
+  579  w3m hellp.192.168.10.10.xip.io
+  580  curl
+  581  curl --help
+  582  curl --help | less
+  583  curl hellp.192.168.10.10.xip.io
+  584  curl baidu.com
+  585  curl hellp.192.168.10.10.xip.io/hellp.jsp
+  586  cf apps
+  587  cf delete APP
+  588  cf delete hello
+  589  cf apps
+  590  cf delete hello
+  591  cf delete micro@vcap.me
+  592  cf delete micro@vcap.me
+  593  cf apps
+  594  curl hellp.192.168.10.10.xip.io/hellp.jsp
+  595  ls
+  596  curl hellp.192.168.10.10/hellp.jsp
+  597  curl hellp.192.168.10.10.xip.io/*
+  598  curl hellp.192.168.10.10.xip.io/
+  599  history 
+  600  history > 9-6command
