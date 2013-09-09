@@ -1,0 +1,423 @@
+cd dea/  
+ls   
+vi env.rb  
+ls   
+cd ..  
+ls   
+cd ..  
+ls   
+cd config/  
+ls   
+vi dea.yml  
+cd ../..  
+vagrant ssh  
+³Ì¶È¡   
+cd /opt/cf-vagrant-installer  
+vagrant ssh  
+curl http://search.maven.org/remotecontent?filepath=mysql/mysql-connector-java/5.1.12/mysql-connector-java-5.1.12.jar -o mysql-connector-java-5.1.12.jar
+cd /opt/cf-vagrant-installer  
+vagrant ssh  
+ls   
+cd /opt/cf-vagrant-installer  
+vagrant ssh  
+Ècd   
+cd /opt/cf-vagrant-installer  
+vagrant ssh  
+cd /opt/cf-vagrant-installer  
+ls   
+vagrant halt  
+ls   
+vagrant halt  
+vagrant up  
+vagrant ssh  
+vagrant halt  
+cd ..  
+ls   
+cd backup/  
+ls   
+mv cf-vagrant-installer/ cf-vagrant-installer1 
+ls   
+cf -rf ../cf-vagrant-installer ./
+cp -rf ../cf-vagrant-installer ./
+ls   
+rm -rf cf-vagrant-installer 
+cd ../  
+ls   
+zip -h  
+tax -h  
+tar -h  
+tar --help  
+tar -cvf cfbackup.tar cf-vagrant-installer
+ls   
+rm -f cfbackup.tar 
+tar -cvf cfbackup.tar cf-vagrant-installer
+rm -f cfbackup.tar 
+tar -cvf cfbackup.tar cf-vagrant-installer
+tar -cvf vmbackup.tar /home/icap/VirtualBox\
+cd cf-vagrant-installer  
+ls   
+vagrant up  
+ls   
+vagrant halt  
+vagrant up  
+ls   
+vagrant halt  
+vagrant up  
+vagrant halt  
+vagrant up  
+vagrant halt  
+vagrant up  
+vagrant halt  
+vagrant up  
+vagrant halt  
+sudo reboot now 
+cd /opt/cf-vagrant-installer  
+ls   
+vagrant ssh  
+cd test-apps/  
+cd provider/  
+ls   
+cd logs/  
+ls   
+ls -l  
+rm -rf * 
+cd ../..  
+cd ..  
+ls   
+cd logs/  
+ls   
+ls -l  
+rm -rf * 
+cd ..  
+ls   
+cd test-apps/  
+ls   
+cd provider/  
+ls   
+ls -l  
+rm -f nohup.out 
+cd ../..  
+ls   
+cd test-apps/consumer/  
+ls   
+cd logs/  
+ls   
+ls -l  
+rm -rf * 
+cd ../..  
+cd ..  
+ls   
+cd /tmp/  
+ls -l  
+cd /opt/cf-vagrant-installer  
+vagrant ssh  
+ls   
+vagrant ssh  
+cd /opt/cf-vagrant-installer  
+ls   
+vagrant up  
+vagrant halt  
+vagrant up  
+vagrant halt  
+ps -ef | grep
+sudo kill -9 2958
+ps -ef | grep
+vagrant halt  
+vagrant up  
+vagrant halt  
+ps -ef | grep
+sudo kill -9 3706
+vagrant up  
+vagrant halt  
+ps -ef | grep
+vagrant up  
+ls   
+cd ..  
+ls   
+cd cf-vagrant-installer1  
+vagrant up  
+cd ..  
+ls   
+cd backup/  
+ls   
+cd ..  
+ls   
+cd cf-vagrant-installer2/  
+ls   
+cd test-apps/  
+ls   
+cd eureka/  
+ls   
+cd ../../  
+ls   
+cd ../  
+ls   
+rm -rf cf-vagrant-installer 
+cp -rf backup/cf-vagrant-installer/ ./
+ls   
+cd /home/  
+cd icap/  
+ls   
+cd vmbackup/  
+ls   
+cp -rf cf-vagrant-installer_1372472444/ ../VirtualBox\
+cd /opt/cf-vagrant-installer  
+vi Vagrantfile  
+vagrant up  
+vagrant up -t 
+cd ../cf-vagrant-installer1  
+vagrant halt  
+cd ../cf-vagrant-installer  
+vagrant up  
+vagrant up cf-vagrant-installer_1372472444 
+export   
+vagrant up  
+cd ..  
+cd cf-vagrant-installer1  
+vagrant up  
+mv /home/icap/VirtualBox\ VMs/* /home/icap/
+vagrant up  
+ls   
+cd custom_config_files/  
+ls   
+cd ..  
+ls   
+vi Procfile  
+ls   
+vagrant box  
+vagrant box list 
+vagrant box package 
+vagrant box -h 
+vagrant -h  
+vagrant destory  
+vagrant box  
+ls   
+vi Rakefile  
+ls   
+cd ..  
+ls   
+cd /var  
+ls   
+cd /opt/  
+ls   
+cp -rf backup/cf-vagrant-installer/ ./
+ls   
+cd cf-vagrant-installer  
+ls   
+cd /opt/cf-vagrant-installer  
+cd /home/icap/  
+ls   
+cd VirtualBox\ VMs/ 
+ls   
+cd ..  
+cp -rf vmbackup/cf-vagrant-installer_1372472444/ VirtualBox\
+ls   
+cd /opt/cf-vagrant-installer  
+ls   
+vagrant up  
+ls   
+cd /home/  
+ls   
+cd icap/  
+ls   
+sudo find / -name
+cd /opt/cf-vagrant-installer  
+ls   
+vi .vagrant/  
+ls   
+vi /home/icap/.vagrant  
+rm -f ./vagrant 
+ls   
+rm -f .vagrant 
+cd ./vagrant  
+cd .vagrant  
+ls   
+cd machines/  
+ls   
+cd cf-install/  
+ls   
+cd virtualbox/  
+ls   
+vi id  
+ls   
+cd /opt/cf-vagrant-installer  
+ls   
+rm -rf ./vagrant 
+vagrant up  
+mv /home/icap/.vagrant /home/ 
+sudo mv /home/icap/.vagrant /home/
+ls   
+vagrant up  
+ls   
+vi Berksfile  
+ls   
+vagrant up  
+export   
+vagrant box  
+vagrant box list 
+vagrant box add 
+vagrant -h  
+vagrant status  
+ls   
+cd chef/  
+ls   
+cd ..  
+ls   
+cd ..  
+ls   
+rm-rf cf-vagrant-installer  
+rm -rf cf-vagrant-installer 
+ls   
+git clone https://github.com/Altoros/cf-vagrant-installer.git 
+cd cf-vagrant-installer  
+ls   
+vagrant -v  
+ls   
+cd /opt/cf-vagrant-installer  
+rake host:bootstrap  
+vagrant up  
+mv /home/.vagrant/ /home/icap/ 
+sudo mv /home/.vagrant/ /home/icap/
+vagrant up  
+ls   
+cd vagrant_box/  
+ls   
+vagrant up  
+vagrant ssh  
+whichis ruby  
+where is ruby 
+ruby --help  
+ruby -version  
+gem --help  
+cf --help  
+cf -v  
+cf --help | less
+cf target http://api.192.168.10.10.xip.io 
+cf create-org ibm 
+ls   
+cf create-space testt 
+cf switch-space testt 
+cf services om 
+cf services -m 
+cf create-service mysql mydata
+cf services -m 
+ls   
+cd /  
+ls   
+ll   
+ls -l  
+l   
+ll   
+cf ser  
+cf services -m 
+cf env  
+cf file  
+cf apps  
+cf apps -t 
+ls   
+cd home/icap/  
+ls   
+cd netflix/  
+ls   
+cd   
+ls   
+cd netflix/testweb/  
+ls   
+cf push  
+ls   
+cf -h  
+cf -h > cf.txt
+ls   
+cd vagrant_box/  
+ls   
+ls -l  
+vi Vagrantfile  
+cf -h  
+cf -h | grep
+cf orgs  
+cf login  
+orgs   
+cf orgs  
+cf -n | grep
+cf -h | grep
+info   
+cf info  
+cf -h | less
+cf app  
+space   
+cf space  
+cf switch-space test 
+cf app  
+cf apps  
+cf switch-space testt 
+cd   
+ls   
+cf spcae  
+cf help  
+cf org  
+cf spaces  
+ls   
+rm *.txt  
+ls   
+mkdir cfsample  
+cd cfsample/  
+ls   
+cd cf-test/WebContent/  
+ls   
+cf push  
+vi /home/icap/.cf/crash  
+cf push  
+cd   
+ls   
+cd cfsample/  
+ls   
+rm -rf cf-test/ 
+ls   
+cd cf-test/WebContent/  
+ls   
+cf push  
+ls   
+cd   
+cd cfsample/  
+ls   
+rm -rf cf-test/ 
+ls   
+cd cf-test/  
+ls   
+cd WebContent/  
+ls   
+vim web.xml  
+ls   
+cf push  
+ls   
+cp web.xml WEB-INF/web.xml 
+ls   
+rm web.xml  
+cf push  
+cf domain  
+cf subdomain  
+cf domains  
+cf apps  
+ping 192.168.10.10.xip.io  
+hellp.192.168.10.10.xip.io   
+w3m hellp.192.168.10.10.xip.io  
+curl   
+curl --help  
+curl --help | less
+curl hellp.192.168.10.10.xip.io  
+curl baidu.com  
+curl hellp.192.168.10.10.xip.io/hellp.jsp  
+cf apps  
+cf delete APP 
+cf delete hello 
+cf apps  
+cf delete hello 
+cf delete micro@vcap.me 
+cf apps  
+curl hellp.192.168.10.10.xip.io/hellp.jsp  
+ls   
+curl hellp.192.168.10.10/hellp.jsp  
+curl hellp.192.168.10.10.xip.io/*  
+curl hellp.192.168.10.10.xip.io/  
+history   
+history > 9-6command 
