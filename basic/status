@@ -1,0 +1,282 @@
+The Monit daemon 5.2.4 uptime: 1d 14h 10m 
+
+Process 'postgres'
+  status                            running
+  monitoring status                 monitored
+  pid                               25837
+  parent pid                        1
+  uptime                            3h 41m 
+  children                          17
+  memory kilobytes                  9344
+  memory kilobytes total            81608
+  memory percent                    0.1%
+  memory percent total              0.9%
+  cpu percent                       0.0%
+  cpu percent total                 0.0%
+  data collected                    Fri Sep 13 15:15:25 2013
+
+Process 'nats'
+  status                            running
+  monitoring status                 monitored
+  pid                               25841
+  parent pid                        1
+  uptime                            3h 41m 
+  children                          0
+  memory kilobytes                  17596
+  memory kilobytes total            17596
+  memory percent                    0.2%
+  memory percent total              0.2%
+  cpu percent                       0.0%
+  cpu percent total                 0.0%
+  data collected                    Fri Sep 13 15:15:25 2013
+
+Process 'warden'
+  status                            running
+  monitoring status                 monitored
+  pid                               25855
+  parent pid                        1
+  uptime                            3h 41m 
+  children                          0
+  memory kilobytes                  30068
+  memory kilobytes total            30068
+  memory percent                    0.3%
+  memory percent total              0.3%
+  cpu percent                       0.0%
+  cpu percent total                 0.0%
+  port response time                0.001s to 127.0.0.1:2345/ [HTTP via TCP]
+  data collected                    Fri Sep 13 15:15:25 2013
+
+Process 'dea_next'
+  status                            running
+  monitoring status                 monitored
+  pid                               25878
+  parent pid                        1
+  uptime                            3h 41m 
+  children                          0
+  memory kilobytes                  41620
+  memory kilobytes total            41620
+  memory percent                    0.5%
+  memory percent total              0.5%
+  cpu percent                       0.0%
+  cpu percent total                 0.0%
+  data collected                    Fri Sep 13 15:15:25 2013
+
+Process 'dir_server'
+  status                            running
+  monitoring status                 monitored
+  pid                               25905
+  parent pid                        1
+  uptime                            3h 41m 
+  children                          0
+  memory kilobytes                  4388
+  memory kilobytes total            4388
+  memory percent                    0.0%
+  memory percent total              0.0%
+  cpu percent                       0.0%
+  cpu percent total                 0.0%
+  data collected                    Fri Sep 13 15:15:25 2013
+
+Process 'health_manager_next'
+  status                            running
+  monitoring status                 monitored
+  pid                               25924
+  parent pid                        1
+  uptime                            3h 41m 
+  children                          0
+  memory kilobytes                  31232
+  memory kilobytes total            31232
+  memory percent                    0.3%
+  memory percent total              0.3%
+  cpu percent                       0.0%
+  cpu percent total                 0.0%
+  data collected                    Fri Sep 13 15:15:25 2013
+
+Process 'uaa'
+  status                            running
+  monitoring status                 monitored
+  pid                               26047
+  parent pid                        1
+  uptime                            3h 41m 
+  children                          0
+  memory kilobytes                  350620
+  memory kilobytes total            350620
+  memory percent                    4.2%
+  memory percent total              4.2%
+  cpu percent                       0.0%
+  cpu percent total                 0.0%
+  data collected                    Fri Sep 13 15:15:25 2013
+
+Process 'uaa_vcap_registrar'
+  status                            running
+  monitoring status                 monitored
+  pid                               26062
+  parent pid                        1
+  uptime                            3h 41m 
+  children                          0
+  memory kilobytes                  28292
+  memory kilobytes total            28292
+  memory percent                    0.3%
+  memory percent total              0.3%
+  cpu percent                       0.0%
+  cpu percent total                 0.0%
+  data collected                    Fri Sep 13 15:15:25 2013
+
+Process 'cloud_controller_ng'
+  status                            running
+  monitoring status                 monitored
+  pid                               27014
+  parent pid                        1
+  uptime                            3h 40m 
+  children                          0
+  memory kilobytes                  71420
+  memory kilobytes total            71420
+  memory percent                    0.8%
+  memory percent total              0.8%
+  cpu percent                       0.4%
+  cpu percent total                 0.4%
+  data collected                    Fri Sep 13 15:15:25 2013
+
+Process 'mysql55'
+  status                            running
+  monitoring status                 monitored
+  pid                               26585
+  parent pid                        26153
+  uptime                            3h 41m 
+  children                          0
+  memory kilobytes                  172892
+  memory kilobytes total            172892
+  memory percent                    2.1%
+  memory percent total              2.1%
+  cpu percent                       0.2%
+  cpu percent total                 0.2%
+  data collected                    Fri Sep 13 15:15:25 2013
+
+Process 'mysql_node'
+  status                            running
+  monitoring status                 monitored
+  pid                               26613
+  parent pid                        1
+  uptime                            3h 41m 
+  children                          0
+  memory kilobytes                  63912
+  memory kilobytes total            63912
+  memory percent                    0.7%
+  memory percent total              0.7%
+  cpu percent                       0.2%
+  cpu percent total                 0.2%
+  data collected                    Fri Sep 13 15:15:25 2013
+
+Process 'mongodb_node'
+  status                            running
+  monitoring status                 monitored
+  pid                               26647
+  parent pid                        1
+  uptime                            3h 41m 
+  children                          0
+  memory kilobytes                  62768
+  memory kilobytes total            62768
+  memory percent                    0.7%
+  memory percent total              0.7%
+  cpu percent                       0.0%
+  cpu percent total                 0.0%
+  data collected                    Fri Sep 13 15:15:25 2013
+
+Process 'login'
+  status                            running
+  monitoring status                 monitored
+  pid                               26670
+  parent pid                        1
+  uptime                            3h 41m 
+  children                          0
+  memory kilobytes                  436060
+  memory kilobytes total            436060
+  memory percent                    5.3%
+  memory percent total              5.3%
+  cpu percent                       0.0%
+  cpu percent total                 0.0%
+  data collected                    Fri Sep 13 15:15:25 2013
+
+Process 'login_vcap_registrar'
+  status                            running
+  monitoring status                 monitored
+  pid                               26692
+  parent pid                        1
+  uptime                            3h 41m 
+  children                          0
+  memory kilobytes                  30784
+  memory kilobytes total            30784
+  memory percent                    0.3%
+  memory percent total              0.3%
+  cpu percent                       0.0%
+  cpu percent total                 0.0%
+  data collected                    Fri Sep 13 15:15:25 2013
+
+Process 'gorouter'
+  status                            running
+  monitoring status                 monitored
+  pid                               26710
+  parent pid                        1
+  uptime                            3h 41m 
+  children                          0
+  memory kilobytes                  11436
+  memory kilobytes total            11436
+  memory percent                    0.1%
+  memory percent total              0.1%
+  cpu percent                       0.0%
+  cpu percent total                 0.0%
+  data collected                    Fri Sep 13 15:15:25 2013
+
+Process 'mysql_gateway'
+  status                            running
+  monitoring status                 monitored
+  pid                               27110
+  parent pid                        1
+  uptime                            3h 40m 
+  children                          0
+  memory kilobytes                  56220
+  memory kilobytes total            56220
+  memory percent                    0.6%
+  memory percent total              0.6%
+  cpu percent                       0.0%
+  cpu percent total                 0.0%
+  data collected                    Fri Sep 13 15:15:25 2013
+
+Process 'mongodb_gateway'
+  status                            running
+  monitoring status                 monitored
+  pid                               27118
+  parent pid                        1
+  uptime                            3h 40m 
+  children                          0
+  memory kilobytes                  56520
+  memory kilobytes total            56520
+  memory percent                    0.6%
+  memory percent total              0.6%
+  cpu percent                       0.0%
+  cpu percent total                 0.0%
+  data collected                    Fri Sep 13 15:15:25 2013
+
+Process 'collector'
+  status                            running
+  monitoring status                 monitored
+  pid                               26942
+  parent pid                        1
+  uptime                            3h 40m 
+  children                          0
+  memory kilobytes                  27180
+  memory kilobytes total            27180
+  memory percent                    0.3%
+  memory percent total              0.3%
+  cpu percent                       0.0%
+  cpu percent total                 0.0%
+  data collected                    Fri Sep 13 15:15:25 2013
+
+System 'system_ubuntu'
+  status                            running
+  monitoring status                 monitored
+  load average                      [0.51] [0.40] [0.41]
+  cpu                               1.0%us 0.4%sy 0.0%wa
+  memory usage                      1886492 kB [23.0%]
+  swap usage                        0 kB [0.0%]
+  data collected                    Fri Sep 13 15:15:25 2013
+
